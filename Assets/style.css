@@ -89,6 +89,14 @@
     margin: 125px auto auto auto;
     color: rgb(240, 240, 240);
 }
+.contactContainerR {
+    max-width: 500px;
+    padding: 15px;
+    border: 8px inset rgb(134, 235, 168);
+    background-color: rgba(51, 51, 51, 0.781);
+    margin: 125px auto auto auto;
+    color: rgb(240, 240, 240);
+}
     /*code for send button animation */
 .sendbuttonPre {
     position: absolute; 
@@ -115,6 +123,10 @@
     z-index: 3;
 }
 
+.container {
+    margin-top: 90px;
+}
+
 .footer {
     position: fixed;
     left: -10px;
@@ -129,7 +141,6 @@
 
 /* portfolio.html css code */
 .portfolioContainer {
-    margin-top: 80px;
     margin-bottom: 40px;
     padding: 15px;
     border: 8px ridge rgba(245, 120, 228, 0.979);
@@ -138,7 +149,7 @@
     font-family: 'Comic Neue', cursive;
 }
 .resumeContainer {
-    margin-top: 32%;
+    
     padding: 20px;
     min-width: fit-content;
     border: 8px ridge rgba(120, 199, 245, 0.979);
@@ -148,14 +159,21 @@
     text-align: center;
 }
 
+.leftCharContainer {
+    left: -13%;
+    overflow: hidden;
+}
+
+.rightCharContainer {
+    left: 14%;
+    overflow: hidden;
+}
+
 .portfolioIMG {
     height: 100%;
     width: 100%;
 }
 
-.leftCharContainer {
-
-}
 .portfolioImagesSection {
     text-align: center;
     color: black;
@@ -163,17 +181,15 @@
 
 .portImageContainer1 {
     border: ridge rgb(126, 40, 40) 8px;
-    padding: 0%;
+    
 }
 
 .portImageContainer2 {
     border: ridge rgb(64, 185, 255) 8px;
-    padding: 
 }
 
 .portImageContainer3 {
     border: ridge rgb(77, 77, 77) 8px;
-    padding: 0%;
 }
 
 .blur {
@@ -186,9 +202,12 @@
 
 .sailorTalk {
     position:absolute;
-    left: 41%;
-    top:7%;
-    font-size: medium;
+    padding: 0px 22px 0px 30px;
+    left: 38%;
+    top:2.5%;
+    font-size: large;
     font-family: 'Comic Neue', cursive;
     color: black;
+    overflow: hidden;
+    
 }
