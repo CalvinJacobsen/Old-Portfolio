@@ -133,17 +133,62 @@
     margin-bottom: 40px;
     padding: 15px;
     border: 8px ridge rgba(245, 120, 228, 0.979);
-    background-color: rgba(204, 204, 204, 0.938);
-    color: rgb(92, 180, 240);
-    font-family: 'Gloria Hallelujah', cursive;
+    background-color: rgba(198, 245, 252, 0.8);
+    color: rgb(155, 88, 146);
+    font-family: 'Comic Neue', cursive;
 }
-.portfolioContainer2 {
-    margin-top: 300px;
-    padding-right: 40px;
+.resumeContainer {
+    margin-top: 32%;
+    padding: 20px;
+    min-width: fit-content;
     border: 8px ridge rgba(120, 199, 245, 0.979);
-    background-color: rgba(204, 204, 204, 0.938);
+    background-color: rgba(245, 204, 255, 0.8);
+    font-family: 'Comic Neue', cursive;
+    color: rgb(36, 100, 143);
+    text-align: center;
 }
 
 .portfolioIMG {
-    margin: 7px
+    height: 100%;
+    width: 100%;
+}
+
+.leftCharContainer {
+
+}
+.portfolioImagesSection {
+    text-align: center;
+    color: black;
+}
+
+.portImageContainer1 {
+    border: ridge rgb(126, 40, 40) 8px;
+    padding: 0%;
+}
+
+.portImageContainer2 {
+    border: ridge rgb(64, 185, 255) 8px;
+    padding: 
+}
+
+.portImageContainer3 {
+    border: ridge rgb(77, 77, 77) 8px;
+    padding: 0%;
+}
+
+.blur {
+    filter: blur(2px);
+}
+
+.blur:hover {
+    filter: blur(0px);
+}
+
+.sailorTalk {
+    position:absolute;
+    left: 41%;
+    top:7%;
+    font-size: medium;
+    font-family: 'Comic Neue', cursive;
+    color: black;
 }
