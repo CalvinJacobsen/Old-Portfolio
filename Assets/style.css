@@ -1,14 +1,18 @@
 /* sets background images for each html page */
 .aboutBody {
-    background-image: url('websiteImages/aboutBG.jpg')
+    background-image: url('websiteImages/aboutBG.jpg');
+    background-repeat: repeat;
+    overflow-x: hidden;
 }
 
 .contactBody {
-    background-image: url('websiteImages/contactBG.png')
+    background-image: url('websiteImages/contactBG.png');
+    background-repeat: repeat;
 }
 
 .portfolioBody {
-    background-image: url('websiteImages/portfolioBG.gif')
+    background-image: url('websiteImages/portfolioBG.gif');
+    background-repeat: repeat;
 }
 
 /* index (mainpage) css */
@@ -118,7 +122,7 @@
     z-index: 2;
 }
 .sendbutton:hover {
-    background-image: url("Assets/contactpageIMG/email.gif");
+    background-image: url("contactpageIMG/email.gif");
     opacity: 100;
     z-index: 3;
 }
