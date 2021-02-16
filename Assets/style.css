@@ -185,15 +185,17 @@
 
 .portImageContainer1 {
     border: ridge rgb(126, 40, 40) 8px;
-    
+    margin-bottom: 8px;
 }
 
 .portImageContainer2 {
     border: ridge rgb(64, 185, 255) 8px;
+    margin-bottom: 8px;
 }
 
 .portImageContainer3 {
     border: ridge rgb(77, 77, 77) 8px;
+    margin-bottom: 8px;
 }
 
 .blur {
