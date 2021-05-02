@@ -45,4 +45,4 @@ Each of things have been completed.
 
 ## Link to the website below \\/ \\/ \\/
 
-https://calvinjacobsen.github.io/old-portfolio/
+https://calvinjacobsen.github.io/Old-Portfolio/index.html
